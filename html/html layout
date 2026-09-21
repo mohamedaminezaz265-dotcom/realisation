@@ -1,0 +1,83 @@
+<div id="wdiv">
+<div id="logo"> logo</div>
+<div id="navigation">navigation</div>
+<div id="header">header / banner</div>
+<div id="skle">SKLE BAR</div>
+<div id="body">BODY AREA</div>
+<div id="footer">footer</div>
+</div>
+
+
+
+
+ 2 / css layout
+
+
+
+
+
+
+#logo{
+    background-color: lightgray;
+    font-size: xx-large;
+    margin-left : none;
+    marginright: 8px;
+    height: 70px;
+    padding-top:10px;
+    margin-top:10px;
+    width: 600px;
+}
+
+#navigation{
+    background-color: lightgray;
+    text-align: center;
+    font-size: x-large;
+    margin-left: 0;
+    margin-top: 10px;
+    margiright: 10px;
+    width:600px;
+    height: 40px;
+}
+#header{
+    background-color: lightgray;
+    text-align: center;
+    font-size: x-large;
+    padding-top:30px ;
+    margin-top: 15px;
+    height: 90px;
+    width: 600px;
+}
+#skle{
+background-color: lightgray;
+width: 100px;
+text-align: center;
+font-size: large;
+padding-top: 130px;
+margin-top: 15px;
+height: 150px;
+margiright: -20px;
+}
+#body{
+background-color:lightgray;
+width: 480px;
+text-align: center;
+font-size: x-large;
+height: 150px;
+margin-left: 120px;
+margin-top: -280px;
+padding-top: 130px;
+
+}
+#footer{
+    background-color: lightgray;
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+    height: 30px;
+    padding-top: 10px;
+   margiright: 5px;
+   width: 600px;
+}
+#wdiv{
+   margin-left: 400px;
+}
