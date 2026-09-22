@@ -1,0 +1,5 @@
+auto - This is default. The browser calculates the height and width
+length - Defines the height or width in px, cm, em, etc.
+% - Defines the height or width in percent of the containing block
+initial - Sets the height or width to its default value
+inherit - The height or width will be inherited from its parent value
