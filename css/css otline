@@ -1,0 +1,17 @@
+outline-style - Specifies the style of the outline
+
+        ex <dotted - Defines a dotted outline>
+
+
+outline-color - Specifies the color of the outline
+           ex <p.ex1 {
+  outline-style: solid;
+  outline-color: red;
+}>
+outline-width - Specifies the width of the outline
+
+p.ex2 {
+  outline-width: medium;
+}
+
+outline-offset - Adds space between the outline and the edge/border of an element
