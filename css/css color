@@ -1,0 +1,13 @@
+
+ 1 rgb
+ 2 HEX 
+ 3 HSL
+
+
+
+
+
+
+To display black, set all color parameters to 0, like this: rgb(0, 0, 0).
+
+To display white, set all color parameters to 255, like this: rgb(255, 255, 255).
