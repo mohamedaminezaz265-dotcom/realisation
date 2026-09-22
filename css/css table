@@ -1,0 +1,25 @@
+Using the border-collapse property:
+
+table {
+  border-collapse: collapse;
+}
+
+   size
+table {
+  width: 100%;
+}
+
+  CSS text-align: center
+To center-align the content of <td> elements, use text-align: center:
+
+
+
+table styling
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
