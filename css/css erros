@@ -1,0 +1,13 @@
+ 1 forget to close brace }
+
+.bad {
+  padding: 20px;
+  margin: 10px;
+
+
+2  property name that does not exist(color) ...
+
+  .bad {
+  colr: blue;
+  font-size: 16px;
+}
