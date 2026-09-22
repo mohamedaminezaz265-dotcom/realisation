@@ -1,0 +1,32 @@
+                              1 External styles
+
+
+
+{
+  <link rel="stylesheet" href="mystyle.css">
+}
+
+  
+                             2 Internal styles 
+
+
+
+  
+  {
+
+    <style>
+body {
+  background-color: red;
+}
+
+h1 {
+  color: maroon;
+  margin-left: 40 px;
+}
+</style>
+  }
+
+
+                             3 inline style
+
+    <h1 style="color:blue;text-align:center;">This is a heading</h1>
