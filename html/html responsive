@@ -1,0 +1,156 @@
+html 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+</head>
+<body>
+    
+
+
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem pariatur doloremque, accusamus hic odio reprehenderit eligendi maiores culpa saepe molestiae nesciunt. Odio quae quisquam veritatis, 
+    quidem labore dignissimos molestiae.</p>
+
+
+
+
+
+
+
+<img src="photo.png" style="width: 100%;">
+
+
+
+<div class="divall">
+<div id="d1">"header"</div>
+<div id="d2">navigation/div>
+<div id="d3">side bar</div>
+<div id="d4">main content</div>
+<div id="d5">footer</div>
+<br>
+</div>
+
+
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
+
+
+
+2  css  
+
+* {
+    box-sizing: border-box;
+}
+
+.divall {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+#d1 {
+    background-color: aqua;
+    outline: 5px solid blueviolet;
+    text-align: center;
+
+    padding-top: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+#d2 {
+    background-color: rgb(255, 55, 0);
+    outline: 5px solid blueviolet;
+    text-align: center;
+
+    padding-top: 5px;
+    margin-top: 5px;
+
+    width: 100%;
+    height: 40px;
+}
+
+
+
+#d3 {
+    background-color: brown;
+    outline: 5px solid blueviolet;
+margin-top: 25px;
+    text-align: center;
+    padding-top: 55px;
+
+    width: 50%;
+    height: 160px;
+}
+
+#d4 {
+    background-color: rgb(58, 165, 42);
+    outline: 5px solid blueviolet;
+
+    text-align: center;
+    padding-top: 55px;
+margin-left: 50%;
+    width: 50%;
+    height: 160px;
+    margin-top: -160px;
+}
+
+#d5 {
+    background-color: blue;
+    outline: 5px solid blueviolet;
+    text-align: center;
+
+    padding-top: 5px;
+    margin-top: 5px;
+
+    width: 100%;
+    height: 40px;
+}
+
+
+
+
+
+
+img{
+    margin-bottom: 60px;
+}
+
+@media(max-width:550px){
+
+
+#d1 , #d2 , #d5 {
+
+    width: 100%;
+    
+}
+
+#d3{
+
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    margin-top: 25px;
+}
+#d4{
+
+
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    margin-top: 5px;
+    margin-left: 0px;
+
+}
+
+
+
+
+
+}
+
