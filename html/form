@@ -1,0 +1,36 @@
+
+<form >
+<label for="company">company</label>
+<input type="text" id="company"><br>
+<label for="fname">first name  : </label>
+<input type="text" id="fname"><br>
+<label for="lname">last name :</label>
+<input type="text" id="lname"><br>
+<label for="email">email :</label>
+<input type="email"  id="email"><br>
+<label for="title"> title : </label>
+<input type="text" id="title"><br>
+<label for="phone"> phone :</label>
+<input type="number" id="phone"><br>
+<label for="cansel">cansel registration : </label>
+<input type="checkbox"  id="cansel"><br>
+<label for="training"> 252 training sesion : </label>
+<select name="" id="training">
+    <option value="22">22</option>
+<option value="33">33</option>
+</select><br>
+<label for="job">job : </label>
+<label for="campaing">capmaing</label>
+<input type="checkbox" id="job"><br>
+<label for="crm">crm</label>
+<input type="checkbox" name="" id="crm"><br>
+<label for="dietary">dietary requirement</label>
+<input type="text" id="dietary"><br><br><br>
+
+<label for="exe">exepections</label>
+
+<textarea></textarea><br>
+
+<label for="submet"></label>
+
+<input type="button" value="save" id="submet">
