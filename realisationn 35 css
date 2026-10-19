@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+background-color: aquamarine;
+}
+
+header{
+background-color: black;
+color: aquamarine;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 20px;
+height: 50px;
+width: auto;
+position: sticky;
+display: flex;
+align-items: center;
+padding-left: 60px;
+}
+header ul{
+display:flex;
+list-style: none;
+color: aquamarine;
+margin: 60px;
+}
+header a{
+display: flex;
+margin: 80px;
+color: aquamarine;
+}
+
+#home{
+background-image: url(discover.baground\ image.avif);
+width: auto;
+object-fit: contain;
+background-size: cover;
+padding: 100px;
+}
+
+  #home h2{
+font-size: xxx-large;
+}
+input{
+padding: 10px;
+padding-left: 50px;
+border-radius: 15px;
+}
+button{
+background-color: aquamarine;
+opacity: 0.7;
+padding: 10px;
+border-radius: 15px;
+}
+.box{
+padding: 10px;
+margin: 10px;
+display: inline-block;
+}
+img{
+border-radius: 15px;
+margin: 3px;
+}
+
+.screen-section {
+    padding: 25;}
+.screen-section img {
+    width: 100%;
+margin: none;
+}
+#reviews {
+    padding: 30px;
+    text-align: center;
+}
+.reviews h2 {
+    margin-bottom: 20px;
+}
+
+.review-card {
+    background-color: #f4f4f4;
+    border-left: 4px solid orange;
+    padding: 15px;
+    width: 320px;
+    text-align: left;
+    height: 110px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
