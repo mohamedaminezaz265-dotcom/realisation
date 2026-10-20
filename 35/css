@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffdf8;
+    color: #183c39;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header span {
+    color: #e97452;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #183c39;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 15px;
+    color: white;
+    background-color: #183c39;
+    background-image: url("discover.baground image.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+input {
+    padding: 10px;
+    width: 220px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e97452;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#destinations {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    flex: 1;
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+#reviews {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.review-card {
+    display: inline-block;
+    width: 340px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-left: 4px solid orange;
+    text-align: left;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #183c39;
+    color: white;
+}
