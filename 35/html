@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldGuide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>World<span>Guide</span></h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#experiences">Experiences</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Discover the world <br> your way.</h1>
+        <p>Explore amazing places and create your own journey.</p>
+
+        <form>
+            <input type="text" placeholder="Where do you want to go?">
+            <button type="button">Explore</button>
+        </form>
+    </section>
+
+    <section id="destinations">
+        <h2>Places waiting for you</h2>
+
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=400" alt="Marrakech">
+                <h3>Marrakech</h3>
+                <p>Discover Moroccan culture.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=400" alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>Explore modern Japan.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=400" alt="Paris">
+                <h3>Paris</h3>
+                <p>Enjoy art and beautiful streets.</p>
+            </div>
+        </div>
+    </section>
+
+    
+<div id="reviews">
+    <h2>Reviews & Stories</h2>
+
+    <div class="review-card">
+  <p><strong>- Amine</strong> (Morocco)</p>
+        <p>“WorldGuide helped me discover places I would never have found alone.”</p>
+      
+    </div>
+
+    <div class="review-card">
+   <p><strong>- Sarah</strong> (France)</p>
+        <p>“The recommendations made exploring local food much easier.”</p>
+     
+    </div>
+
+    <div class="review-card"> 
+  <p><strong>- Yuki</strong> (Japan)</p>
+        <p>“I found a perfect balance between famous places and hidden experiences.”</p>
+     
+    </div>
+</div>
+    <footer>
+        <h3>WorldGuide</h3>
+        <p>Your personal travel guide.</p>
+    </footer>
+
+</body>
+</html>
