@@ -1,0 +1,110 @@
+*{
+text-align: center;
+margin: 0px;
+}
+header{
+padding: 15px;
+background-color: rgb(241, 205, 6);
+display: flex;
+align-items: center;
+color: white;
+justify-content: space-between;
+
+}
+span{
+color: orange;
+}
+nav a{
+margin-left: 20px;
+color: white;
+padding: 8px;
+text-decoration: none;
+border-radius: 15px;
+background-color: orange;
+}
+#hero{
+padding: 105px;
+background-image: url(https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1200);
+background-size: cover;
+background-position: center;
+color: whitesmoke;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:medium;
+}
+#hero h1{
+color: rgba(255, 217, 0, 0.966);
+
+}
+input{
+padding: 10px;
+margin-top: 20px;
+border-radius: 15px;
+color: black;
+padding-left: 25px;
+padding-right: 25px;
+}
+button{
+background-color: orange;
+padding: 10px;
+border-radius: 15px;
+
+}
+.destination{
+display: flex;
+flex: 1;
+gap: 10px;
+justify-content: space-between;
+margin: 10px;
+}
+.card{
+border: 1px solid orange;
+border-radius: 15px;
+}
+img{
+width: 100%;
+margin-bottom: 10px;
+
+}
+
+#reviews {
+    padding: 50px 45px;
+    text-align: center;
+}
+
+.review-card {
+    display: inline-block;
+    width: 340px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-left: 4px solid orange;
+    text-align: left;
+}
+#why {
+    background-color: #eaf0eb;
+    padding: 40px 20px;
+    text-align: center;
+margin-top: 60px;
+margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.features div {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #183c39;
+    color: white;
+}
