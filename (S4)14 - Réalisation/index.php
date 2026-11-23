@@ -59,4 +59,3 @@ $reviews = [
 ];
 
 require 'index-template.php';
-

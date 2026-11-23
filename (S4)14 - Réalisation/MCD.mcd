@@ -1,0 +1,5 @@
+COUNTRY: id_country, nom_country
+POSSEDE, 0N COUNTRY, 11 DESTINATION
+DESTINATION: id_destination, nom, image, description
+PROPOSE, 1N DESTINATION, 0N INTEREST
+INTEREST: id_interest, nom_interest
